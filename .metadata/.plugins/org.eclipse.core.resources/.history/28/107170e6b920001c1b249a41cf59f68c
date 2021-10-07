@@ -1,0 +1,43 @@
+package testandoUnsTrambites;
+
+public class TestandoUnsTrambites {
+
+	public static void main(String[] args) {
+
+
+		       /* int n1 = 12223;
+		      
+		        String number = String.valueOf(n1);
+
+		        char[] digits1 = number.toCharArray();
+		        
+		        
+		        int[] intArray = new int[digits1.length];// criação do array int
+
+		        for(int i = 0; i < digits1.length; i++) {
+		            System.out.println(digits1[i]);
+		        }
+		    
+//=============================================================================================
+		     /*   for (int i = 0; i < digits1.length; i++) {
+		            
+		            try {
+		                intArray[i] = Integer.parseInt(digits1[i]);
+		            } catch (Exception e) {
+		                System.out.println("Unable to parse string to int: " + e.getMessage());
+		            }
+		        }*/
+//=============================================================================================
+		        int number1 = 12223;
+
+		        String number = String.valueOf(number1);
+
+		        String[] digits = number.split("(?<=.)");
+
+		        for(int i = 0; i < digits.length; i++) {
+		            System.out.println(digits[i]);
+		        }
+		
+	}
+
+}

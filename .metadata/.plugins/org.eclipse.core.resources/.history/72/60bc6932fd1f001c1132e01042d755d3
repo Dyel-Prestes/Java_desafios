@@ -1,0 +1,29 @@
+package concatenandoQuadrados;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class ConcatenandoQuadrados {
+	
+	  public int squareDigits(int n) {
+		  int retornada = 0;
+		  
+		  
+		  
+		  return retornada;
+	  }
+
+	public static void main(String[] args) {
+		
+		LinkedList list = new LinkedList(); //cria ela
+		list.add(05); //adiciona uma pessoa
+		list.add("novembro"); 
+		list.add(1998);
+		Iterator i = list.iterator(); //cria um objeto Iterator da sua LinkedList
+		while (i.hasNext()) { //percorrer toda a lista até o ultimo elemento
+		System.out.println(i.next()); //Mostra o valor da Lista
+		}
+
+	}
+
+}
